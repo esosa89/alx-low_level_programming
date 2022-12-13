@@ -1,20 +1,18 @@
 #include "main.h"
-
 /**
  * main - program that prints _putchar
  *
  * Return: 0
  */
-
 int main(void)
 {
 	char *pro = "_putchar";
 
 	while (*pro)
 	{
-		putchar(*pro);
+		_putchar(*pro);
 		pro++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
