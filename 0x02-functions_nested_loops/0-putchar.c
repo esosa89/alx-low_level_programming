@@ -9,6 +9,7 @@
 int main(void)
 {
 	char *pro = "_putchar";
+
 	while (*pro)
 	{
 		putchar(*pro);
