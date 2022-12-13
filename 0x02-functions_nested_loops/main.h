@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int putchar(int c)
+int putchar(char c)
 
 #endif
