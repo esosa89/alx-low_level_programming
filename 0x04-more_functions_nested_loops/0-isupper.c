@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - is upper
+ * _isupper - is upper
  * @c: character
  * Return: 0
  */
