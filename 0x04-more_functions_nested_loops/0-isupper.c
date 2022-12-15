@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - is upper.
+ * main - is upper
  * @c: character
- * Return: Always 0.
+ * Return: 0
  */
 int _isupper(int c)
 {
