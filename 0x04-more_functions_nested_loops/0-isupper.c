@@ -1,22 +1,18 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - is upper.
  *
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
-	if (isupper(c) == 0)
+	if (c >= 'A' && c <= 'Z')
 	{
-	printf("%c: 0\n", c);
+		return (1);
 	}
 	else
 	{
-	printf("%c: 1\n", c);
+		return (0);
 	}
-	return (0);
 }
